@@ -1,0 +1,28 @@
+* {
+	border: solid black 1px;
+}
+@font-face {
+	
+}
+body{
+	width: 700px;
+	margin: 0px auto;
+}
+h1 {
+	text-align: center;
+}
+#header p {
+	width: 650px;
+	margin: 10px auto;
+}
+ul {
+	list-style-type: none;
+	width: 650px;
+	margin: 0px auto;
+}
+li {
+	display: inline-block;
+}
+input, select{
+	width: 175px;
+}

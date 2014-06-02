@@ -1,0 +1,103 @@
+/* {
+	border: solid black 1px;
+}*/
+body {
+	margin: 0px auto;
+	background-color: #cab388;
+	font-family: Arial, sans-serif;
+	font-size: 12px;
+}
+.site {
+	display: flex;
+	min-height: 100vh;
+	flex-direction: column;
+}
+.site-content {
+	flex: 1;
+}
+h1 {
+	width: 575px;
+	height: 80px;
+	text-align: center;
+	margin: 40px auto 10px auto;
+	padding: 10px 0px 0px 0px;
+	font-family: "Lobster", cursive;
+	font-size: 50px;
+	color: #fff;
+	/*background-color: #00b358;
+	border-radius: 1px;
+	box-shadow: 10px 10px 5px #888888;*/
+}
+#header img {
+	display: block;
+	margin: 0px auto;
+}
+.selectors, .results {
+	width: 650px;
+	margin: 10px auto 0px auto;
+}
+input, select{
+	width: 190px;
+}
+.selectors ul label {
+	display: inline-block;
+	text-align: center;
+	font-weight: bold;
+}
+ul {
+	margin: 0px;
+	padding: 0px;
+}
+li {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+}
+li:nth-child(2) {
+	margin: 0px 34px;
+}
+
+p button {
+	width: 75px;
+	height: 30px;
+	background-color: #ed002f;
+	border-radius: 5px;
+	border: 0px;
+	font-weight: bold;
+}
+.button {
+	float: right;
+	margin-top: -55px;
+	margin-right: -82px;
+}
+.footer {
+	width: 100%;
+	margin: 0px auto;
+	text-align: center;
+	background-color: #cab388;
+}
+.image {
+	width: 230px;
+	height: 130px;
+	float: left;
+}
+.image img {
+	display: block;
+	width: 220px;
+}
+.info {
+	width: 470px;
+	height: 130px;
+	margin-left: 230px;
+	padding-left: 15px;
+}
+.info p {
+	margin-bottom: 15px;
+}
+hr {
+	height: 1px;
+	border: none;
+	color: black;
+	background-color: black;
+}
