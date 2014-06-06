@@ -15,7 +15,7 @@ $(document).ready(function(){
 				console.log(data);
 
 				for(item in data["places"]) {
-						var locate = data["places"][item];
+					var locate = data["places"][item];
 						$(".info").append("<p>" + "Place: " + "<a href=" + locate["activities"][item]["url"] + " target=" + "_blank" + ">" + locate["name"] + "</a>" + "</p>");
 						$(".info").append("<p>" + "Location: " + locate["city"] + ", " + locate["state"] + "</p>");
 						$(".info").append("<p>" + "Activities: " + locate["activities"][item]["activity_type_name"] + "</p>");
