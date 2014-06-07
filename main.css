@@ -79,20 +79,19 @@ p button {
 	text-align: center;
 	background-color: #00a876;
 }
-.image {
+/*.image {
 	width: 230px;
-	height: 130px;
+	display: inline-block;
 	float: left;
-}
-.image img {
-	display: block;
+}*/
+.info img {
+
 	width: 220px;
+	float: left;
+	display: inline-block;
 }
 .info {
-	width: 470px;
-	height: 150px;
-	margin-left: 230px;
-	padding-left: 15px;
+	width: 650px;	
 }
 .info p {
 	margin-bottom: 15px;
