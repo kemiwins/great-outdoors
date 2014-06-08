@@ -79,22 +79,18 @@ p button {
 	text-align: center;
 	background-color: #00a876;
 }
-/*.image {
-	width: 230px;
-	display: inline-block;
-	float: left;
-}*/
+.results {
+	width: 650px;
+	display: block;
+}
 .info img {
-
 	width: 220px;
+	padding-right: 10px;
 	float: left;
-	display: inline-block;
-}
-.info {
-	width: 650px;	
-}
+} 
 .info p {
 	margin-bottom: 15px;
+	margin-left: 230px;
 }
 a {
 	text-decoration: none;
