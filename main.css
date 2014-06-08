@@ -1,6 +1,3 @@
-/* {
-	border: solid black 1px;
-}*/
 body {
 	margin: 0px auto;
 	background-color: #fff;
@@ -59,7 +56,7 @@ li:nth-child(2) {
 	margin: 0px 34px;
 }
 
-p button {
+button {
 	width: 100px;
 	height: 30px;
 	background-color: #ed002f;
@@ -67,6 +64,9 @@ p button {
 	border: 0px;
 	font-weight: bold;
 	color: #fff;
+}
+button:hover {
+	background-color: #f63e62;
 }
 .button {
 	float: right;
@@ -78,22 +78,36 @@ p button {
 	margin: 0px auto;
 	text-align: center;
 	background-color: #00a876;
+	color: #fff;
+}
+.footer a {
+	color: #fff;
 }
 .results {
 	width: 650px;
 	display: block;
 }
-.info img {
+/*.info img {
 	width: 220px;
 	padding-right: 10px;
 	float: left;
-} 
+}*/ 
 .info p {
 	margin-bottom: 15px;
-	margin-left: 230px;
+	/*margin-left: 230px;*/
 }
 a {
-	text-decoration: none;
+	text-decoration: none;	
+}
+.info a:link {	
+	color: #ed002f;
+	font-weight: bold;
+}
+.info a:visited {
+	color: #b22d47;
+}
+.info a:hover{
+	color: #f66f89; 
 }
 hr {
 	height: 1px;
