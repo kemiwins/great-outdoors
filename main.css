@@ -1,10 +1,10 @@
 body {
-	margin: 0px auto;
+	margin: 0;
 	background-color: #fff;
 	font-family: 'Lucida Sans Unicode', 'Lucida Grande', sans-serif;
 	font-size: 12px;
 }
-.site {
+.site, html {
 	display: flex;
 	min-height: 100vh;
 	flex-direction: column;
@@ -12,7 +12,7 @@ body {
 .site-content {
 	flex: 1;
 
-	/*ie10 syntax*/
+	/*ie10 tweener syntax from Philip Walton*/
 	-ms-flex-preferred-size: auto;
 
 	@include breakpoint("large") {
@@ -38,7 +38,7 @@ h1 {
 	height: 280px;
 }
 .selectors, .results {
-	width: 650px;
+	width: 660px;
 	margin: 10px auto 0px auto;
 }
 input, select{
@@ -60,9 +60,8 @@ li {
 	padding: 0px;
 }
 li:nth-child(2) {
-	margin: 0px 34px;
+	margin: 0px 38px;
 }
-
 button {
 	width: 100px;
 	height: 30px;
@@ -91,7 +90,7 @@ button:hover {
 	color: #fff;
 }
 .results {
-	width: 650px;
+	width: 660px;
 	display: block;
 }
 /*.info img {
@@ -121,4 +120,7 @@ hr {
 	border: none;
 	color: black;
 	background-color: black;
+}
+#loading {
+	display: none;
 }
