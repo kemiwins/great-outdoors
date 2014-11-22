@@ -14,10 +14,6 @@ body {
 
 	/*ie10 tweener syntax from Philip Walton*/
 	-ms-flex-preferred-size: auto;
-
-	@include breakpoint("large") {
-    padding-top: 2em;
-  	}
 }
 h1 {
 	width: 600px;
